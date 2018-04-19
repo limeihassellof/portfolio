@@ -8,3 +8,16 @@ img{
   line-height: 300px;
   border-radius: 30px;
 }
+body {
+  background-image: url(../images/keyboard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 0
+}
+#intro {
+  background-color: rgba(93, 93, 86, 0.6);
+  min-height: 100vh;
+
+}

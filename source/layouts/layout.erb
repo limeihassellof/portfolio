@@ -11,8 +11,8 @@
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
   </head>
-  <body>
-    <div id="container">
+  <body class="<%= current_page.data.id %>">
+    <div class="container">
       <%= partial '/partials/header' %>
       <!-- next line is index.html.haml/resume -->
       <%= yield %>
